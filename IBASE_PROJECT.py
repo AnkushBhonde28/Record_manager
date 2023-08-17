@@ -140,8 +140,8 @@ class project:
 
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="root",
+            user="#####",
+            password="######",
             database="Register"
         )
 
@@ -225,8 +225,8 @@ class project:
 
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="root",
+            user="#####",
+            password="#####",
             database="Register"
         )
 
@@ -299,8 +299,8 @@ class project:
     def show_all_details(self):
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="root",
+            user="#####",
+            password="",
             database="Register"
         )
 
@@ -359,8 +359,8 @@ class project:
         address = self.e6.get()
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="root",
+            user="#####",
+            password="#####",
             database="Register")
 
         cursor = connection.cursor()
